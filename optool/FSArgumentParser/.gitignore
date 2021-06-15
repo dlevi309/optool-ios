@@ -1,0 +1,10 @@
+.DS_Store
+.rbx
+*.o
+bin
+*.swp
+ArgumentParser.xcworkspace
+Pods
+ArgumentParser.xcodeproj/xcuserdata/
+*.xcodeproj/*.xcworkspace
+build

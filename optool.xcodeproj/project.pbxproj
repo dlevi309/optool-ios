@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65E162AC267879CC00413188 /* NSData+Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E16282267879CC00413188 /* NSData+Reading.m */; };
+		65E162AD267879CC00413188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E16283267879CC00413188 /* main.m */; };
+		65E162AE267879CC00413188 /* operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E16284267879CC00413188 /* operations.m */; };
+		65E162AF267879CC00413188 /* headers.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E16285267879CC00413188 /* headers.m */; };
+		65E162B026787A4700413188 /* libArgumentParser-Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E16294267879CC00413188 /* libArgumentParser-Static.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65E1628B267879CC00413188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E1626A267879CC00413188 /* ArgumentParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DACF2EC414FD3B2F0097C754;
+			remoteInfo = desc;
+		};
+		65E1628D267879CC00413188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E1626A267879CC00413188 /* ArgumentParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DACF2EDF14FD3B630097C754;
+			remoteInfo = "long-desc";
+		};
+		65E1628F267879CC00413188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E1626A267879CC00413188 /* ArgumentParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DACF2EF214FD3B7A0097C754;
+			remoteInfo = spiffy;
+		};
+		65E16291267879CC00413188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E1626A267879CC00413188 /* ArgumentParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA00447A155D94FF0028A012;
+			remoteInfo = "ArgumentParser-Dynamic";
+		};
+		65E16293267879CC00413188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E1626A267879CC00413188 /* ArgumentParser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA87348918970AB800113896;
+			remoteInfo = "ArgumentParser-Static";
+		};
+		65E162B126787A4C00413188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65E1626A267879CC00413188 /* ArgumentParser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DA87348818970AB800113896;
+			remoteInfo = "ArgumentParser-Static";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		551A88C4208E671F0048DFA0 /* optool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = optool; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E16244267879CC00413188 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		65E16245267879CC00413188 /* NSData+Reading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Reading.h"; sourceTree = "<group>"; };
+		65E16248267879CC00413188 /* XPMArgumentPackage_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentPackage_Private.h; sourceTree = "<group>"; };
+		65E16249267879CC00413188 /* NSScanner+EscapedScanning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+EscapedScanning.h"; sourceTree = "<group>"; };
+		65E1624A267879CC00413188 /* NSArray+XPMArgumentsNormalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XPMArgumentsNormalizer.h"; sourceTree = "<group>"; };
+		65E1624B267879CC00413188 /* NSString+Indenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Indenter.h"; sourceTree = "<group>"; };
+		65E1624C267879CC00413188 /* XPMArgumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentParser.h; sourceTree = "<group>"; };
+		65E1624D267879CC00413188 /* XPMValuedArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMValuedArgument.m; sourceTree = "<group>"; };
+		65E1624E267879CC00413188 /* XPMArgumentPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentPackage.h; sourceTree = "<group>"; };
+		65E1624F267879CC00413188 /* ArgumentParser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArgumentParser-Prefix.pch"; sourceTree = "<group>"; };
+		65E16250267879CC00413188 /* NSProcessInfo+XPMArgumentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProcessInfo+XPMArgumentParser.m"; sourceTree = "<group>"; };
+		65E16251267879CC00413188 /* XPMMutableAttributedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMMutableAttributedArray.m; sourceTree = "<group>"; };
+		65E16252267879CC00413188 /* XPMArgumentSignature_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentSignature_Private.h; sourceTree = "<group>"; };
+		65E16253267879CC00413188 /* NSDictionary+RubyDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RubyDescription.h"; sourceTree = "<group>"; };
+		65E16254267879CC00413188 /* XPMArgsKonstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgsKonstants.m; sourceTree = "<group>"; };
+		65E16255267879CC00413188 /* XPMArgumentSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgumentSignature.m; sourceTree = "<group>"; };
+		65E16256267879CC00413188 /* XPMArguments_Coalescer_Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArguments_Coalescer_Internal.m; sourceTree = "<group>"; };
+		65E16257267879CC00413188 /* XPMCountedArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMCountedArgument.m; sourceTree = "<group>"; };
+		65E16258267879CC00413188 /* NSScanner+EscapedScanning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+EscapedScanning.m"; sourceTree = "<group>"; };
+		65E16259267879CC00413188 /* XPMArgumentPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgumentPackage.m; sourceTree = "<group>"; };
+		65E1625A267879CC00413188 /* XPMValuedArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMValuedArgument.h; sourceTree = "<group>"; };
+		65E1625B267879CC00413188 /* XPMArgumentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgumentParser.m; sourceTree = "<group>"; };
+		65E1625C267879CC00413188 /* NSString+Indenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Indenter.m"; sourceTree = "<group>"; };
+		65E1625D267879CC00413188 /* NSArray+XPMArgumentsNormalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XPMArgumentsNormalizer.m"; sourceTree = "<group>"; };
+		65E1625E267879CC00413188 /* XPMArgsKonstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgsKonstants.h; sourceTree = "<group>"; };
+		65E1625F267879CC00413188 /* NSDictionary+RubyDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RubyDescription.m"; sourceTree = "<group>"; };
+		65E16260267879CC00413188 /* XPMMutableAttributedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMMutableAttributedArray.h; sourceTree = "<group>"; };
+		65E16261267879CC00413188 /* NSProcessInfo+XPMArgumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProcessInfo+XPMArgumentParser.h"; sourceTree = "<group>"; };
+		65E16262267879CC00413188 /* XPMCountedArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMCountedArgument.h; sourceTree = "<group>"; };
+		65E16263267879CC00413188 /* XPMArguments_Coalescer_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArguments_Coalescer_Internal.h; sourceTree = "<group>"; };
+		65E16264267879CC00413188 /* XPMArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArguments.h; sourceTree = "<group>"; };
+		65E16265267879CC00413188 /* XPMArgumentSignature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPMArgumentSignature.h; sourceTree = "<group>"; };
+		65E16266267879CC00413188 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		65E16267267879CC00413188 /* .ruby-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".ruby-version"; sourceTree = "<group>"; };
+		65E16269267879CC00413188 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		65E1626A267879CC00413188 /* ArgumentParser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ArgumentParser.xcodeproj; sourceTree = "<group>"; };
+		65E1626E267879CC00413188 /* spiffy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = spiffy.m; sourceTree = "<group>"; };
+		65E1626F267879CC00413188 /* NSString+FilledString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FilledString.m"; sourceTree = "<group>"; };
+		65E16270267879CC00413188 /* example-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "example-Prefix.pch"; sourceTree = "<group>"; };
+		65E16271267879CC00413188 /* long-desc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "long-desc.m"; sourceTree = "<group>"; };
+		65E16272267879CC00413188 /* desc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = desc.m; sourceTree = "<group>"; };
+		65E16273267879CC00413188 /* NSString+FilledString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FilledString.h"; sourceTree = "<group>"; };
+		65E16274267879CC00413188 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		65E16275267879CC00413188 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		65E16276267879CC00413188 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		65E16278267879CC00413188 /* XPMArgumentSignatureFormatConstructionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgumentSignatureFormatConstructionTests.m; sourceTree = "<group>"; };
+		65E16279267879CC00413188 /* XPMAttributedArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMAttributedArrayTests.m; sourceTree = "<group>"; };
+		65E1627A267879CC00413188 /* XPMSignatureHashTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMSignatureHashTests.m; sourceTree = "<group>"; };
+		65E1627B267879CC00413188 /* XPMArgumentNormalizerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMArgumentNormalizerTests.m; sourceTree = "<group>"; };
+		65E1627C267879CC00413188 /* XPMParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMParserTests.m; sourceTree = "<group>"; };
+		65E1627D267879CC00413188 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E1627E267879CC00413188 /* XPMPackageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPMPackageTests.m; sourceTree = "<group>"; };
+		65E1627F267879CC00413188 /* operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operations.h; sourceTree = "<group>"; };
+		65E16280267879CC00413188 /* headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
+		65E16281267879CC00413188 /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		65E16282267879CC00413188 /* NSData+Reading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Reading.m"; sourceTree = "<group>"; };
+		65E16283267879CC00413188 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65E16284267879CC00413188 /* operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = operations.m; sourceTree = "<group>"; };
+		65E16285267879CC00413188 /* headers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headers.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551A88C1208E671F0048DFA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E162B026787A4700413188 /* libArgumentParser-Static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551A88BB208E671F0048DFA0 = {
+			isa = PBXGroup;
+			children = (
+				65E16243267879CC00413188 /* optool */,
+				551A88C5208E671F0048DFA0 /* Products */,
+				65E1623A2678724600413188 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		551A88C5208E671F0048DFA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551A88C4208E671F0048DFA0 /* optool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E1623A2678724600413188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65E16243267879CC00413188 /* optool */ = {
+			isa = PBXGroup;
+			children = (
+				65E16244267879CC00413188 /* Task.h */,
+				65E16245267879CC00413188 /* NSData+Reading.h */,
+				65E16246267879CC00413188 /* FSArgumentParser */,
+				65E1627F267879CC00413188 /* operations.h */,
+				65E16280267879CC00413188 /* headers.h */,
+				65E16281267879CC00413188 /* defines.h */,
+				65E16282267879CC00413188 /* NSData+Reading.m */,
+				65E16283267879CC00413188 /* main.m */,
+				65E16284267879CC00413188 /* operations.m */,
+				65E16285267879CC00413188 /* headers.m */,
+			);
+			path = optool;
+			sourceTree = "<group>";
+		};
+		65E16246267879CC00413188 /* FSArgumentParser */ = {
+			isa = PBXGroup;
+			children = (
+				65E16247267879CC00413188 /* ArgumentParser */,
+				65E16266267879CC00413188 /* LICENSE.md */,
+				65E16267267879CC00413188 /* .ruby-version */,
+				65E16268267879CC00413188 /* bin */,
+				65E1626A267879CC00413188 /* ArgumentParser.xcodeproj */,
+				65E1626D267879CC00413188 /* example */,
+				65E16274267879CC00413188 /* README.md */,
+				65E16275267879CC00413188 /* Rakefile */,
+				65E16276267879CC00413188 /* .gitignore */,
+				65E16277267879CC00413188 /* ArgumentParser-Dynamic Tests */,
+			);
+			path = FSArgumentParser;
+			sourceTree = "<group>";
+		};
+		65E16247267879CC00413188 /* ArgumentParser */ = {
+			isa = PBXGroup;
+			children = (
+				65E16248267879CC00413188 /* XPMArgumentPackage_Private.h */,
+				65E16249267879CC00413188 /* NSScanner+EscapedScanning.h */,
+				65E1624A267879CC00413188 /* NSArray+XPMArgumentsNormalizer.h */,
+				65E1624B267879CC00413188 /* NSString+Indenter.h */,
+				65E1624C267879CC00413188 /* XPMArgumentParser.h */,
+				65E1624D267879CC00413188 /* XPMValuedArgument.m */,
+				65E1624E267879CC00413188 /* XPMArgumentPackage.h */,
+				65E1624F267879CC00413188 /* ArgumentParser-Prefix.pch */,
+				65E16250267879CC00413188 /* NSProcessInfo+XPMArgumentParser.m */,
+				65E16251267879CC00413188 /* XPMMutableAttributedArray.m */,
+				65E16252267879CC00413188 /* XPMArgumentSignature_Private.h */,
+				65E16253267879CC00413188 /* NSDictionary+RubyDescription.h */,
+				65E16254267879CC00413188 /* XPMArgsKonstants.m */,
+				65E16255267879CC00413188 /* XPMArgumentSignature.m */,
+				65E16256267879CC00413188 /* XPMArguments_Coalescer_Internal.m */,
+				65E16257267879CC00413188 /* XPMCountedArgument.m */,
+				65E16258267879CC00413188 /* NSScanner+EscapedScanning.m */,
+				65E16259267879CC00413188 /* XPMArgumentPackage.m */,
+				65E1625A267879CC00413188 /* XPMValuedArgument.h */,
+				65E1625B267879CC00413188 /* XPMArgumentParser.m */,
+				65E1625C267879CC00413188 /* NSString+Indenter.m */,
+				65E1625D267879CC00413188 /* NSArray+XPMArgumentsNormalizer.m */,
+				65E1625E267879CC00413188 /* XPMArgsKonstants.h */,
+				65E1625F267879CC00413188 /* NSDictionary+RubyDescription.m */,
+				65E16260267879CC00413188 /* XPMMutableAttributedArray.h */,
+				65E16261267879CC00413188 /* NSProcessInfo+XPMArgumentParser.h */,
+				65E16262267879CC00413188 /* XPMCountedArgument.h */,
+				65E16263267879CC00413188 /* XPMArguments_Coalescer_Internal.h */,
+				65E16264267879CC00413188 /* XPMArguments.h */,
+				65E16265267879CC00413188 /* XPMArgumentSignature.h */,
+			);
+			path = ArgumentParser;
+			sourceTree = "<group>";
+		};
+		65E16268267879CC00413188 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				65E16269267879CC00413188 /* .gitkeep */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		65E1626B267879CC00413188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E1628C267879CC00413188 /* desc */,
+				65E1628E267879CC00413188 /* long-desc */,
+				65E16290267879CC00413188 /* spiffy */,
+				65E16292267879CC00413188 /* ArgumentParser-Dynamic.dylib */,
+				65E16294267879CC00413188 /* libArgumentParser-Static.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E1626D267879CC00413188 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				65E1626E267879CC00413188 /* spiffy.m */,
+				65E1626F267879CC00413188 /* NSString+FilledString.m */,
+				65E16270267879CC00413188 /* example-Prefix.pch */,
+				65E16271267879CC00413188 /* long-desc.m */,
+				65E16272267879CC00413188 /* desc.m */,
+				65E16273267879CC00413188 /* NSString+FilledString.h */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		65E16277267879CC00413188 /* ArgumentParser-Dynamic Tests */ = {
+			isa = PBXGroup;
+			children = (
+				65E16278267879CC00413188 /* XPMArgumentSignatureFormatConstructionTests.m */,
+				65E16279267879CC00413188 /* XPMAttributedArrayTests.m */,
+				65E1627A267879CC00413188 /* XPMSignatureHashTests.m */,
+				65E1627B267879CC00413188 /* XPMArgumentNormalizerTests.m */,
+				65E1627C267879CC00413188 /* XPMParserTests.m */,
+				65E1627D267879CC00413188 /* Info.plist */,
+				65E1627E267879CC00413188 /* XPMPackageTests.m */,
+			);
+			path = "ArgumentParser-Dynamic Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		551A88C3208E671F0048DFA0 /* optool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551A88CD208E671F0048DFA0 /* Build configuration list for PBXNativeTarget "optool" */;
+			buildPhases = (
+				551A88C0208E671F0048DFA0 /* Sources */,
+				551A88C1208E671F0048DFA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65E162B226787A4C00413188 /* PBXTargetDependency */,
+			);
+			name = optool;
+			productName = "ios-command-line-tool";
+			productReference = 551A88C4208E671F0048DFA0 /* optool */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551A88BC208E671F0048DFA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Brandon Azad";
+				TargetAttributes = {
+					551A88C3208E671F0048DFA0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 551A88BF208E671F0048DFA0 /* Build configuration list for PBXProject "optool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 551A88BB208E671F0048DFA0;
+			productRefGroup = 551A88C5208E671F0048DFA0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 65E1626B267879CC00413188 /* Products */;
+					ProjectRef = 65E1626A267879CC00413188 /* ArgumentParser.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				551A88C3208E671F0048DFA0 /* optool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		65E1628C267879CC00413188 /* desc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = desc;
+			remoteRef = 65E1628B267879CC00413188 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65E1628E267879CC00413188 /* long-desc */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "long-desc";
+			remoteRef = 65E1628D267879CC00413188 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65E16290267879CC00413188 /* spiffy */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = spiffy;
+			remoteRef = 65E1628F267879CC00413188 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65E16292267879CC00413188 /* ArgumentParser-Dynamic.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = "ArgumentParser-Dynamic.dylib";
+			remoteRef = 65E16291267879CC00413188 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65E16294267879CC00413188 /* libArgumentParser-Static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libArgumentParser-Static.a";
+			remoteRef = 65E16293267879CC00413188 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551A88C0208E671F0048DFA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E162AE267879CC00413188 /* operations.m in Sources */,
+				65E162AD267879CC00413188 /* main.m in Sources */,
+				65E162AF267879CC00413188 /* headers.m in Sources */,
+				65E162AC267879CC00413188 /* NSData+Reading.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65E162B226787A4C00413188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ArgumentParser-Static";
+			targetProxy = 65E162B126787A4C00413188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		551A88CB208E671F0048DFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		551A88CC208E671F0048DFA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551A88CE208E671F0048DFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XM6HQ5F5J;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		551A88CF208E671F0048DFA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XM6HQ5F5J;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551A88BF208E671F0048DFA0 /* Build configuration list for PBXProject "optool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551A88CB208E671F0048DFA0 /* Debug */,
+				551A88CC208E671F0048DFA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551A88CD208E671F0048DFA0 /* Build configuration list for PBXNativeTarget "optool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551A88CE208E671F0048DFA0 /* Debug */,
+				551A88CF208E671F0048DFA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 551A88BC208E671F0048DFA0 /* Project object */;
+}
