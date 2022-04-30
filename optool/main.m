@@ -226,7 +226,7 @@ int main(int argc, const char * argv[]) {
             NSPipe *output = [NSPipe pipe];
             NSTask *task = [[NSTask alloc] init];
             task.launchPath = @"/usr/libexec/ldid";
-            task.arguments = @[ @"-s", @"-", @(resignPath) ];
+            task.arguments = @[ @"-S", @(resignPath) ];
 
             [task setStandardOutput:output];
             [task setStandardError:output];
